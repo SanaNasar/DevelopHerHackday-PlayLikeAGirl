@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
 body, html{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #5a5a5a;
@@ -32,23 +32,23 @@ h5{
 	line-height: 20px;
 }
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 }
 p.intro{
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 }
-a{ color: #FCAC45;}
+a{ color: #D2E3FF;}
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #FCAC45;
+	color: #D2E3FF;
 }
 
 .section-title hr{
-	border-color: #fcac45;
+	border-color: #D2E3FF;
 	border-width: 4px;
 	width: 60px;
 	float: left;
@@ -99,7 +99,7 @@ font-weight: 900;
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #FCAC45 !important;
+	color: #E8B910 !important;
 	background-color: transparent;
 	font-weight: 700;
 }
@@ -109,8 +109,8 @@ font-weight: 900;
 	}
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-	background-color: #FCAC45;
-	border-color: #FCAC45;
+	background-color: #D2E3FF;
+	border-color: #D2E3FF;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -146,7 +146,7 @@ font-weight: 900;
 }
 
 .color{
-	color: #fcac45;
+	color: #E8B910;
 }
 
 a.fa.fa-angle-down {
@@ -159,9 +159,9 @@ a.fa.fa-angle-down {
 	transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
-	background: #fcac45;
+	background: #D2E3FF;
 	color: #ffffff;
-	border: 2px solid #fcac45;
+	border: 2px solid #D2E3FF;
 }
 /* About Section */
 #tf-about{
@@ -172,7 +172,7 @@ ul.about-list li{
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 }
 ul.about-list li span{ 
 	margin-right: 10px;
@@ -207,7 +207,7 @@ ul.about-list li span{
 	font-weight: 300;
 }
 .section-title.center .line{
-	border-top: 4px solid #fcac45;
+	border-top: 4px solid #D2E3FF;
 	height: 10px;
 	width: 60px;
 	text-align: center;
@@ -238,7 +238,7 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 #tf-team .item .thumbnail:hover>img.img-circle.team-img{
-	border: 4px solid #FCAC45;
+	border: 4px solid #D2E3FF;
 }
 #tf-team .thumbnail {
 	background: transparent;
@@ -268,15 +268,26 @@ img.img-circle.team-img {
 .owl-theme .owl-controls.clickable .owl-page:hover span {
 	filter: Alpha(Opacity=100);
 	opacity: 1;
-	background: #FCAC45;
+	background: #D2E3FF;
 }
 .owl-theme .owl-controls .owl-page.active span{
-	background: #FCAC45;
+	background: #D2E3FF;
 }
 
 /* Services Section */
 #tf-services{
 	padding: 80px 0;
+	/* Team Section */
+}
+
+#tf-services{
+	background: url(../img/Girl.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	height: 800px;
 }
 
 .space{
@@ -285,7 +296,7 @@ img.img-circle.team-img {
 
 #tf-services i.fa {
 	font-size: 40px;
-	border: 4px solid #FCAC45;
+	border: 4px solid #D2E3FF;
 	width: 100px;
 	height: 100px;
 	padding: 27px 25px;
@@ -300,7 +311,7 @@ img.img-circle.team-img {
 }
 
 #tf-services .service:hover>i.fa{
-	background: #FCAC45;
+	background: #D2E3FF;
 	color: #ffffff;
 }
 
@@ -436,11 +447,11 @@ ol.type li a.active { font-weight: 700; }
 #tf-works i.fa {
 	height: 30px;
 	width: 30px;
-	border: 1px solid #FCAC45;
+	border: 1px solid #D2E3FF;
 	font-size: 20px;
 	padding: 5px;
 	border-radius: 50%;
-	color: #FCAC45;
+	color: #D2E3FF;
 }
 /* Testimonials Section */
 #tf-testimonials{
@@ -486,7 +497,7 @@ label {
 	float: left;
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 }
 #tf-contact .form-control {
 	display: block;
@@ -515,7 +526,7 @@ label {
 
 button.btn.tf-btn.btn-default {
 	float: right;
-	background: #FCAC45;
+	background: #D2E3FF;
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
@@ -566,6 +577,6 @@ nav#footer p{
 	transition: all 0.5s;
 }
 #footer i.fa:hover{
-	background: #FCAC45;
-	border-color: #FCAC45;
+	background: #D2E3FF;
+	border-color: #D2E3FF;
 	color: #ffffff;
